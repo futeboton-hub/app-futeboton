@@ -1,0 +1,50 @@
+# Project TODO - Liga Futeboton
+
+- [x] Schema do banco de dados (jogadores, grupos, partidas, gols)
+- [x] Migration SQL aplicada no banco
+- [x] Backend: CRUD de jogadores (cadastro com nome, município, time, grupo)
+- [x] Backend: Lançamento de placares por rodada
+- [x] Backend: Cálculo automático de classificação (pts, V, E, D, GP, GC, SG)
+- [x] Backend: Geração automática do chaveamento eliminatório
+- [x] Backend: Histórico de resultados com correção de placar
+- [x] Backend: Exportação Excel
+- [x] Backend: Dashboard (jogos realizados, pendentes, status dos grupos)
+- [x] Frontend: Design system (tipografia, cores, espaçamento elegante)
+- [x] Frontend: Layout principal com navegação (DashboardLayout/Sidebar)
+- [x] Frontend: Página de cadastro de jogadores
+- [x] Frontend: Página de lançamento de placares
+- [x] Frontend: Página de classificação dos grupos
+- [x] Frontend: Página de chaveamento eliminatório
+- [x] Frontend: Página de dashboard/visão geral
+- [x] Frontend: Página de histórico de resultados
+- [x] Frontend: Exportação Excel (botão de download)
+- [x] Testes unitários (vitest)
+- [x] Verificação visual final
+- [x] Schema: Adicionar colunas de prorrogação e pênaltis na tabela knockout_matches
+- [x] Backend: Lógica de desempate com prorrogação e pênaltis
+- [x] Frontend: Interface para registrar prorrogação e pênaltis nas eliminatórias
+- [x] Testes: Validar fluxo completo de desempate
+- [x] Corrigir regra de desempate: empate no tempo normal vai direto para pênaltis (sem prorrogação)
+- [x] Schema: Reestruturar knockout_matches para suportar 4 séries (A/B/C/D) e disputa de 3º lugar
+- [x] Backend: Gerar chaveamento das 4 séries a partir da classificação dos grupos
+- [x] Backend: Lógica de disputa de 3º lugar (perdedores das semis)
+- [x] Frontend: Página de eliminatórias com abas por série (A/B/C/D)
+- [x] Schema: Tabela de eventos/torneios (multi-campeonato)
+- [x] Schema: Tabela de inscrições com status e lista de espera
+- [x] Schema: Tabela de jogadores permanentes (cadastro único com login por e-mail)
+- [x] Backend: Login por e-mail (registro + login + sessão) - estrutura base
+- [x] Backend: Fluxo de inscrição pública - estrutura base
+- [x] Backend: Lista de espera com posição - estrutura base
+- [x] Frontend: Página pública de inscrição (/inscricao) - estrutura base
+- [x] Frontend: Painel do organizador (/admin/inscricoes) - estrutura base
+- [x] Refinar: Endpoint público para consultar inscrição do jogador logado (persistir status ao recarregar)
+- [x] Refinar: Exibir dados reais de PIX do torneio na página de inscrição
+- [x] Refinar: Enriquecer lista de inscrições com nome/e-mail do jogador no painel do organizador
+- [x] Refinar: Aplicar regras automáticas de prazo de desistência (refundDeadline/noRefundDeadline)
+- [x] Refinar: Promoção automática da lista de espera após cancelamento
+- [x] Backend: CRUD completo de torneios (criar, editar, encerrar)
+- [x] Backend: Listar torneios (ativos e encerrados)
+- [x] Frontend: Página de gestão de torneios (criar/editar/encerrar)
+- [x] Frontend: Seletor de torneio ativo na sidebar/header
+- [x] Frontend: Contexto global de torneio selecionado (todas as páginas usam)
+- [x] Frontend: Histórico de campeonatos encerrados com resultados
